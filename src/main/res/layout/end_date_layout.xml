@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnDate3"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/_dt3"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/btnDate2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDate30"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/_dt30"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnDate20"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDate10"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/_dt10"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/btnDate00"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDate6"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/_dt6"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/btnDate5"
+        app:layout_constraintTop_toBottomOf="@+id/btnDate1" />
+
+    <Button
+        android:id="@+id/btnDate5"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/_dt5"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDate0" />
+
+    <Button
+        android:id="@+id/btnDate0"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/_dt0"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDate7"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/_dt7"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/btnDate6"
+        app:layout_constraintTop_toBottomOf="@+id/btnDate2" />
+
+    <Button
+        android:id="@+id/btnDate1"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/_dt1"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/btnDate0"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDate8"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/_dt8"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/btnDate7"
+        app:layout_constraintTop_toBottomOf="@+id/btnDate3" />
+
+    <Button
+        android:id="@+id/btnDate9"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/_dt9"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnDate8"
+        app:layout_constraintTop_toBottomOf="@+id/btnDate4" />
+
+    <Button
+        android:id="@+id/btnDate00"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/_dt00"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDate20"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/_dt20"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/btnDate10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDate2"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/_dt2"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/btnDate1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDate4"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/_dt4"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnDate3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/dateBack"
+        android:layout_width="73dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="52dp"
+        android:contentDescription="@string/decrease_years"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <ImageButton
+        android:id="@+id/dateForward"
+        android:layout_width="73dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="56dp"
+        android:contentDescription="@string/decrease_years"
+        android:rotationY="179"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <TextView
+        android:id="@+id/startDateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/start_date"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

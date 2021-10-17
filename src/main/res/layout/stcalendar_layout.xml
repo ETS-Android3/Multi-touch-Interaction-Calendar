@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/mainBack"
+        android:layout_width="73dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="@string/decrease_years"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minBtn"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <ImageButton
+        android:id="@+id/goBtn"
+        android:layout_width="73dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="@string/decrease_years"
+        android:rotationY="179"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endMinBtn"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/main_start"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/main_end"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintStart_toEndOf="@+id/start"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/yearBtn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/main_year"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start" />
+
+    <Button
+        android:id="@+id/monthBtn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/main_month"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yearBtn" />
+
+    <Button
+        android:id="@+id/dayBtn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/main_day"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monthBtn" />
+
+    <Button
+        android:id="@+id/endYearBtn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/main_endYear"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/yearBtn"
+        app:layout_constraintTop_toBottomOf="@+id/end" />
+
+    <Button
+        android:id="@+id/endMonthBtn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/main_endMonth"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/monthBtn"
+        app:layout_constraintTop_toBottomOf="@+id/endYearBtn" />
+
+    <Button
+        android:id="@+id/endDayBtn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/main_endDay"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/dayBtn"
+        app:layout_constraintTop_toBottomOf="@+id/endMonthBtn" />
+
+    <TextView
+        android:id="@+id/weekDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/main_weekday"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dayBtn" />
+
+    <TextView
+        android:id="@+id/endWeekDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/main_endWeekday"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toEndOf="@+id/weekDay"
+        app:layout_constraintTop_toBottomOf="@+id/endDayBtn" />
+
+    <Button
+        android:id="@+id/hourBtn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/main_hour"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weekDay" />
+
+    <Button
+        android:id="@+id/endHourBtn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/main_endHour"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/hourBtn"
+        app:layout_constraintTop_toBottomOf="@+id/endWeekDay" />
+
+    <Button
+        android:id="@+id/minBtn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/main_minute"
+        android:textAllCaps="false"
+
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hourBtn" />
+
+    <Button
+        android:id="@+id/endMinBtn"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_purple"
+        android:text="@string/main_endMinute"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/minBtn"
+        app:layout_constraintTop_toBottomOf="@+id/endHourBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

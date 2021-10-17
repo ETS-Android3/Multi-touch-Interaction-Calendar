@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/endMonthBack"
+        android:layout_width="73dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="52dp"
+        android:contentDescription="@string/decrease_years"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <ImageButton
+        android:id="@+id/endMonthForward"
+        android:layout_width="73dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="56dp"
+        android:contentDescription="@string/decrease_years"
+        android:rotationY="179"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <Button
+        android:id="@+id/augEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/aug"
+        app:layout_constraintStart_toEndOf="@+id/julEndButton"
+        app:layout_constraintTop_toBottomOf="@+id/mayEndButton" />
+
+    <Button
+        android:id="@+id/sepEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/sep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toEndOf="@+id/augEndButton"
+        app:layout_constraintTop_toBottomOf="@+id/junEndButton" />
+
+    <Button
+        android:id="@+id/novEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/nov"
+        app:layout_constraintStart_toEndOf="@+id/octEndButton"
+        app:layout_constraintTop_toBottomOf="@+id/augEndButton" />
+
+    <Button
+        android:id="@+id/julEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/jul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aprEndButton" />
+
+    <Button
+        android:id="@+id/decEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/dec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toEndOf="@+id/novEndButton"
+        app:layout_constraintTop_toBottomOf="@+id/sepEndButton" />
+
+    <Button
+        android:id="@+id/octEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/oct"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/julEndButton" />
+
+    <Button
+        android:id="@+id/mayEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/may"
+        app:layout_constraintStart_toEndOf="@+id/aprEndButton"
+        app:layout_constraintTop_toBottomOf="@+id/febEndButton" />
+
+    <Button
+        android:id="@+id/junEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/jun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toEndOf="@+id/mayEndButton"
+        app:layout_constraintTop_toBottomOf="@+id/marEndButton" />
+
+    <Button
+        android:id="@+id/aprEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/apr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/janEndButton" />
+
+    <Button
+        android:id="@+id/janEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/jan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/endMonthTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Jan"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/febEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/feb"
+        app:layout_constraintStart_toEndOf="@+id/janEndButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/marEndButton"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/mar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toEndOf="@+id/febEndButton"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

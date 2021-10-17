@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stcalendar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".mtTester"></activity>
+        <activity android:name=".endMinActivity" />
+        <activity android:name=".endHourActivity" />
+        <activity android:name=".endDateActivity" />
+        <activity android:name=".endMonthActivity" />
+        <activity android:name=".endYearActivity" />
+        <activity android:name=".MultiTouch" />
+        <activity android:name=".minActivity" />
+        <activity android:name=".hourActivity" />
+        <activity android:name=".monthActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".STCalendarActivity" />
+        <activity android:name=".yearActivity" />
+        <activity android:name=".dateActivity" />
+    </application>
+
+</manifest>

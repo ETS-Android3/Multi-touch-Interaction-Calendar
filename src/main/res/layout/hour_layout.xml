@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hourActivity">
+
+    <ImageButton
+        android:id="@+id/hourBack"
+        android:layout_width="73dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="56dp"
+        android:contentDescription="@string/decrease_years"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <ImageButton
+        android:id="@+id/hourForward"
+        android:layout_width="73dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="56dp"
+        android:contentDescription="@string/decrease_years"
+        android:rotationY="179"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <Button
+        android:id="@+id/endBtnHour2"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/_hr2"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/endBtnHour1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/endBtnHour0"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/_hr0"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/endBtnHour4"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/_hr4"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toEndOf="@+id/endBtnHour3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/endBtnHour11"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/_hr11"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/endBtnHour10"
+        app:layout_constraintTop_toBottomOf="@+id/endBtnHour6" />
+
+    <Button
+        android:id="@+id/endBtnHour12"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/_hr12"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/endBtnHour11"
+        app:layout_constraintTop_toBottomOf="@+id/endBtnHour7" />
+
+    <Button
+        android:id="@+id/endBtnHour1"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/_hr1"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/endBtnHour0"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/endBtnHour10"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/_hr10"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endBtnHour5" />
+
+    <Button
+        android:id="@+id/endBtnHour7"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/_hr7"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/endBtnHour6"
+        app:layout_constraintTop_toBottomOf="@+id/endBtnHour2" />
+
+    <Button
+        android:id="@+id/endBtnHour9"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/_hr9"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toEndOf="@+id/endBtnHour8"
+        app:layout_constraintTop_toBottomOf="@+id/endBtnHour4" />
+
+    <Button
+        android:id="@+id/endBtnHour6"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/_hr6"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/endBtnHour5"
+        app:layout_constraintTop_toBottomOf="@+id/endBtnHour1" />
+
+    <Button
+        android:id="@+id/endBtnHour8"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/_hr8"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/endBtnHour7"
+        app:layout_constraintTop_toBottomOf="@+id/endBtnHour3" />
+
+    <Button
+        android:id="@+id/endBtnHour5"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/_hr5"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endBtnHour0" />
+
+    <Button
+        android:id="@+id/endBtnHour3"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="172dp"
+        android:text="@string/_hr3"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/endBtnHour2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/endHourTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/start_hour"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="@string/am"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="@string/pm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
